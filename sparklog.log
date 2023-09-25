@@ -1,0 +1,227 @@
+2023-09-22 00:33:04 - root - INFO: starting
+2023-09-22 00:33:04 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:33:04 - Create_spark_session - INFO: master is local
+2023-09-22 00:33:17 - Create_spark_session - INFO: spark object created
+2023-09-22 00:33:17 - root - INFO: validating spark object
+2023-09-22 00:33:17 - validate - WARNING: started the get_current_date
+2023-09-22 00:33:24 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:33:24 - validate - WARNING: validation done...
+2023-09-22 00:33:24 - root - INFO: reading data file which is of > parquet
+2023-09-22 00:33:24 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:33:25 - load_data - WARNING: dataframe created successfully
+2023-09-22 00:33:25 - root - INFO: displaying the data
+2023-09-22 00:33:32 - root - INFO: Application done
+2023-09-22 00:38:41 - root - INFO: starting
+2023-09-22 00:38:41 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:38:41 - Create_spark_session - INFO: master is local
+2023-09-22 00:38:48 - Create_spark_session - INFO: spark object created
+2023-09-22 00:38:48 - root - INFO: validating spark object
+2023-09-22 00:38:48 - validate - WARNING: started the get_current_date
+2023-09-22 00:38:52 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:38:52 - validate - WARNING: validation done...
+2023-09-22 00:38:52 - root - INFO: reading data file which is of > parquet
+2023-09-22 00:38:52 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:38:53 - load_data - WARNING: dataframe created successfully
+2023-09-22 00:38:53 - root - INFO: displaying the data
+2023-09-22 00:38:56 - load_data - WARNING: count the records in the df_city
+2023-09-22 00:38:57 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-22 00:38:57 - root - INFO: Application done
+2023-09-22 00:44:57 - root - INFO: starting
+2023-09-22 00:44:57 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:44:57 - Create_spark_session - INFO: master is local
+2023-09-22 00:45:02 - Create_spark_session - INFO: spark object created
+2023-09-22 00:45:02 - root - INFO: validating spark object
+2023-09-22 00:45:02 - validate - WARNING: started the get_current_date
+2023-09-22 00:45:07 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:45:07 - validate - WARNING: validation done...
+2023-09-22 00:45:43 - root - INFO: starting
+2023-09-22 00:45:43 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:45:43 - Create_spark_session - INFO: master is local
+2023-09-22 00:45:49 - Create_spark_session - INFO: spark object created
+2023-09-22 00:45:49 - root - INFO: validating spark object
+2023-09-22 00:45:49 - validate - WARNING: started the get_current_date
+2023-09-22 00:45:53 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:45:53 - validate - WARNING: validation done...
+2023-09-22 00:45:53 - root - INFO: reading data file which is of > csv
+2023-09-22 00:45:53 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:46:20 - root - INFO: starting
+2023-09-22 00:46:20 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:46:20 - Create_spark_session - INFO: master is local
+2023-09-22 00:46:25 - root - ERROR: KeyboardInterrupt while sending command.
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ttg\PycharmProjects\pyspark\venv\lib\site-packages\py4j\java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "C:\Users\ttg\PycharmProjects\pyspark\venv\lib\site-packages\py4j\clientserver.py", line 511, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+2023-09-22 00:46:26 - root - INFO: starting
+2023-09-22 00:46:26 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:46:26 - Create_spark_session - INFO: master is local
+2023-09-22 00:46:31 - Create_spark_session - INFO: spark object created
+2023-09-22 00:46:31 - root - INFO: validating spark object
+2023-09-22 00:46:31 - validate - WARNING: started the get_current_date
+2023-09-22 00:46:35 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:46:35 - validate - WARNING: validation done...
+2023-09-22 00:46:35 - root - INFO: reading data file which is of > csv
+2023-09-22 00:46:35 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:48:14 - root - INFO: starting
+2023-09-22 00:48:14 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:48:14 - Create_spark_session - INFO: master is local
+2023-09-22 00:48:20 - Create_spark_session - INFO: spark object created
+2023-09-22 00:48:20 - root - INFO: validating spark object
+2023-09-22 00:48:20 - validate - WARNING: started the get_current_date
+2023-09-22 00:48:25 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:48:25 - validate - WARNING: validation done...
+2023-09-22 00:48:25 - root - INFO: reading data file which is of > parquet
+2023-09-22 00:48:25 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:48:26 - load_data - WARNING: dataframe created successfully
+2023-09-22 00:48:26 - root - INFO: displaying the data
+2023-09-22 00:48:28 - load_data - WARNING: count the records in the df_city
+2023-09-22 00:48:29 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-22 00:48:29 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:51:48 - root - INFO: starting
+2023-09-22 00:51:48 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:51:48 - Create_spark_session - INFO: master is local
+2023-09-22 00:51:53 - Create_spark_session - INFO: spark object created
+2023-09-22 00:51:53 - root - INFO: validating spark object
+2023-09-22 00:51:53 - validate - WARNING: started the get_current_date
+2023-09-22 00:51:56 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:51:56 - validate - WARNING: validation done...
+2023-09-22 00:51:56 - root - INFO: reading data file which is of > parquet
+2023-09-22 00:51:56 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:51:57 - load_data - WARNING: dataframe created successfully
+2023-09-22 00:51:57 - root - INFO: displaying the data
+2023-09-22 00:51:59 - load_data - WARNING: count the records in the df_city
+2023-09-22 00:52:00 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-22 00:52:00 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:58:17 - root - INFO: starting
+2023-09-22 00:58:17 - Create_spark_session - INFO: get_spark_object started
+2023-09-22 00:58:17 - Create_spark_session - INFO: master is local
+2023-09-22 00:58:28 - Create_spark_session - INFO: spark object created
+2023-09-22 00:58:28 - root - INFO: validating spark object
+2023-09-22 00:58:28 - validate - WARNING: started the get_current_date
+2023-09-22 00:58:38 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 22))]
+2023-09-22 00:58:38 - validate - WARNING: validation done...
+2023-09-22 00:58:38 - root - INFO: reading data file which is of > parquet
+2023-09-22 00:58:38 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:58:39 - load_data - WARNING: dataframe created successfully
+2023-09-22 00:58:39 - root - INFO: displaying the data
+2023-09-22 00:58:44 - load_data - WARNING: count the records in the df_city
+2023-09-22 00:58:46 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-22 00:58:46 - load_data - WARNING: load_data starting ..... 
+2023-09-22 00:58:58 - load_data - WARNING: dataframe created successfully
+2023-09-22 00:58:58 - root - INFO: displaying the data
+2023-09-22 00:58:59 - load_data - WARNING: count the records in the df_fact
+2023-09-22 00:59:01 - load_data - WARNING: Numbers of records in the DataFrame[npi: int, nppes_provider_last_org_name: string, nppes_provider_first_name: string, nppes_provider_city: string, nppes_provider_state: string, specialty_description: string, description_flag: string, drug_name: string, generic_name: string, bene_count: int, total_claim_count: int, total_30_day_fill_count: double, total_day_supply: int, total_drug_cost: double, bene_count_ge65: int, bene_count_ge65_suppress_flag: string, total_claim_count_ge65: int, ge65_suppress_flag: string, total_30_day_fill_count_ge65: double, total_day_supply_ge65: int, total_drug_cost_ge65: double, years_of_exp: string] are:: 1329329
+2023-09-22 00:59:01 - root - INFO: Application done
+2023-09-23 12:11:11 - root - INFO: starting
+2023-09-23 12:11:11 - Create_spark_session - INFO: get_spark_object started
+2023-09-23 12:11:11 - Create_spark_session - INFO: master is local
+2023-09-23 12:11:30 - Create_spark_session - INFO: spark object created
+2023-09-23 12:11:30 - root - INFO: validating spark object
+2023-09-23 12:11:30 - validate - WARNING: started the get_current_date
+2023-09-23 12:11:36 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 23))]
+2023-09-23 12:11:36 - validate - WARNING: validation done...
+2023-09-23 12:11:36 - root - INFO: reading data file which is of > parquet
+2023-09-23 12:11:36 - load_data - WARNING: load_data starting ..... 
+2023-09-23 12:11:38 - load_data - WARNING: dataframe created successfully
+2023-09-23 12:11:38 - root - INFO: displaying the data
+2023-09-23 12:11:41 - load_data - WARNING: count the records in the df_city
+2023-09-23 12:11:42 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-23 12:11:42 - load_data - WARNING: load_data starting ..... 
+2023-09-23 12:11:49 - load_data - WARNING: dataframe created successfully
+2023-09-23 12:11:49 - root - INFO: displaying the data
+2023-09-23 12:11:50 - load_data - WARNING: count the records in the df_fact
+2023-09-23 12:11:50 - load_data - WARNING: Numbers of records in the DataFrame[npi: int, nppes_provider_last_org_name: string, nppes_provider_first_name: string, nppes_provider_city: string, nppes_provider_state: string, specialty_description: string, description_flag: string, drug_name: string, generic_name: string, bene_count: int, total_claim_count: int, total_30_day_fill_count: double, total_day_supply: int, total_drug_cost: double, bene_count_ge65: int, bene_count_ge65_suppress_flag: string, total_claim_count_ge65: int, ge65_suppress_flag: string, total_30_day_fill_count_ge65: double, total_day_supply_ge65: int, total_drug_cost_ge65: double, years_of_exp: string] are:: 1329329
+2023-09-23 12:11:50 - root - INFO: Application done
+2023-09-23 13:17:26 - root - INFO: starting
+2023-09-23 13:17:26 - Create_spark_session - INFO: get_spark_object started
+2023-09-23 13:17:26 - Create_spark_session - INFO: master is local
+2023-09-23 13:17:32 - Create_spark_session - INFO: spark object created
+2023-09-23 13:17:32 - root - INFO: validating spark object
+2023-09-23 13:17:32 - validate - WARNING: started the get_current_date
+2023-09-23 13:17:39 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 23))]
+2023-09-23 13:17:39 - validate - WARNING: validation done...
+2023-09-23 13:17:39 - root - INFO: reading data file which is of > parquet
+2023-09-23 13:17:39 - load_data - WARNING: load_data starting ..... 
+2023-09-23 13:17:40 - load_data - WARNING: dataframe created successfully
+2023-09-23 13:17:40 - root - INFO: displaying the data
+2023-09-23 13:17:42 - load_data - WARNING: count the records in the df_city
+2023-09-23 13:17:43 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-23 13:17:43 - load_data - WARNING: load_data starting ..... 
+2023-09-23 13:17:48 - load_data - WARNING: dataframe created successfully
+2023-09-23 13:17:48 - root - INFO: displaying the data
+2023-09-23 13:17:48 - load_data - WARNING: count the records in the df_fact
+2023-09-23 13:17:49 - load_data - WARNING: Numbers of records in the DataFrame[npi: int, nppes_provider_last_org_name: string, nppes_provider_first_name: string, nppes_provider_city: string, nppes_provider_state: string, specialty_description: string, description_flag: string, drug_name: string, generic_name: string, bene_count: int, total_claim_count: int, total_30_day_fill_count: double, total_day_supply: int, total_drug_cost: double, bene_count_ge65: int, bene_count_ge65_suppress_flag: string, total_claim_count_ge65: int, ge65_suppress_flag: string, total_30_day_fill_count_ge65: double, total_day_supply_ge65: int, total_drug_cost_ge65: double, years_of_exp: string] are:: 1329329
+2023-09-23 13:17:49 - root - INFO: processing data.....
+2023-09-23 13:17:49 - transform_data - WARNING: transform_data starting
+2023-09-23 13:17:49 - transform_data - WARNING: transform data successfully
+2023-09-23 13:17:49 - root - INFO: displaying the transformed data 
+2023-09-23 13:17:49 - load_data - WARNING: count the records in the df_precs
+2023-09-23 13:17:50 - load_data - WARNING: Numbers of records in the DataFrame[presc_npi: int, last_name: string, first_name: string, precs_city: string, precs_state: string, presc_specialty: string, drug_name: string, total_claim_count: int, total_day_supply: int, total_drug_cost: double, years_of_exp: string] are:: 1329329
+2023-09-23 13:17:50 - root - INFO: Application done
+2023-09-23 13:18:30 - root - INFO: starting
+2023-09-23 13:18:30 - Create_spark_session - INFO: get_spark_object started
+2023-09-23 13:18:30 - Create_spark_session - INFO: master is local
+2023-09-23 13:18:34 - Create_spark_session - INFO: spark object created
+2023-09-23 13:18:34 - root - INFO: validating spark object
+2023-09-23 13:18:34 - validate - WARNING: started the get_current_date
+2023-09-23 13:18:37 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 23))]
+2023-09-23 13:18:37 - validate - WARNING: validation done...
+2023-09-23 13:18:37 - root - INFO: reading data file which is of > parquet
+2023-09-23 13:18:37 - load_data - WARNING: load_data starting ..... 
+2023-09-23 13:18:38 - load_data - WARNING: dataframe created successfully
+2023-09-23 13:18:38 - root - INFO: displaying the data
+2023-09-23 13:18:40 - load_data - WARNING: count the records in the df_city
+2023-09-23 13:18:40 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-23 13:18:40 - load_data - WARNING: load_data starting ..... 
+2023-09-23 13:18:45 - load_data - WARNING: dataframe created successfully
+2023-09-23 13:18:45 - root - INFO: displaying the data
+2023-09-23 13:18:45 - load_data - WARNING: count the records in the df_fact
+2023-09-23 13:18:46 - load_data - WARNING: Numbers of records in the DataFrame[npi: int, nppes_provider_last_org_name: string, nppes_provider_first_name: string, nppes_provider_city: string, nppes_provider_state: string, specialty_description: string, description_flag: string, drug_name: string, generic_name: string, bene_count: int, total_claim_count: int, total_30_day_fill_count: double, total_day_supply: int, total_drug_cost: double, bene_count_ge65: int, bene_count_ge65_suppress_flag: string, total_claim_count_ge65: int, ge65_suppress_flag: string, total_30_day_fill_count_ge65: double, total_day_supply_ge65: int, total_drug_cost_ge65: double, years_of_exp: string] are:: 1329329
+2023-09-23 13:18:46 - root - INFO: processing data.....
+2023-09-23 13:18:46 - transform_data - WARNING: transform_data starting
+2023-09-23 13:18:46 - transform_data - WARNING: transform data successfully
+2023-09-23 13:18:46 - root - INFO: displaying the transformed data 
+2023-09-23 13:18:46 - load_data - WARNING: count the records in the df_city_sel
+2023-09-23 13:18:47 - load_data - WARNING: Numbers of records in the DataFrame[upper(city): string, state_id: string, upper(state_name): string, upper(state_name): string, population: int, zips: string] are:: 28338
+2023-09-23 13:18:47 - load_data - WARNING: count the records in the df_precs
+2023-09-23 13:18:47 - load_data - WARNING: Numbers of records in the DataFrame[presc_npi: int, last_name: string, first_name: string, precs_city: string, precs_state: string, presc_specialty: string, drug_name: string, total_claim_count: int, total_day_supply: int, total_drug_cost: double, years_of_exp: string] are:: 1329329
+2023-09-23 13:18:47 - root - INFO: Application done
+2023-09-23 13:21:00 - root - INFO: starting
+2023-09-23 13:21:00 - Create_spark_session - INFO: get_spark_object started
+2023-09-23 13:21:00 - Create_spark_session - INFO: master is local
+2023-09-23 13:21:04 - Create_spark_session - INFO: spark object created
+2023-09-23 13:21:04 - root - INFO: validating spark object
+2023-09-23 13:21:04 - validate - WARNING: started the get_current_date
+2023-09-23 13:21:08 - validate - WARNING: validating spark object with current date-[Row(current_date()=datetime.date(2023, 9, 23))]
+2023-09-23 13:21:08 - validate - WARNING: validation done...
+2023-09-23 13:21:08 - root - INFO: reading data file which is of > parquet
+2023-09-23 13:21:08 - load_data - WARNING: load_data starting ..... 
+2023-09-23 13:21:08 - load_data - WARNING: dataframe created successfully
+2023-09-23 13:21:08 - root - INFO: displaying the data
+2023-09-23 13:21:10 - load_data - WARNING: count the records in the df_city
+2023-09-23 13:21:11 - load_data - WARNING: Numbers of records in the DataFrame[city: string, city_ascii: string, state_id: string, state_name: string, county_fips: int, county_name: string, lat: double, lng: double, population: int, density: int, timezone: string, zips: string] are:: 28338
+2023-09-23 13:21:11 - load_data - WARNING: load_data starting ..... 
+2023-09-23 13:21:16 - load_data - WARNING: dataframe created successfully
+2023-09-23 13:21:16 - root - INFO: displaying the data
+2023-09-23 13:21:16 - load_data - WARNING: count the records in the df_fact
+2023-09-23 13:21:17 - load_data - WARNING: Numbers of records in the DataFrame[npi: int, nppes_provider_last_org_name: string, nppes_provider_first_name: string, nppes_provider_city: string, nppes_provider_state: string, specialty_description: string, description_flag: string, drug_name: string, generic_name: string, bene_count: int, total_claim_count: int, total_30_day_fill_count: double, total_day_supply: int, total_drug_cost: double, bene_count_ge65: int, bene_count_ge65_suppress_flag: string, total_claim_count_ge65: int, ge65_suppress_flag: string, total_30_day_fill_count_ge65: double, total_day_supply_ge65: int, total_drug_cost_ge65: double, years_of_exp: string] are:: 1329329
+2023-09-23 13:21:17 - root - INFO: processing data.....
+2023-09-23 13:21:17 - transform_data - WARNING: transform_data starting
+2023-09-23 13:21:17 - transform_data - WARNING: transform data successfully
+2023-09-23 13:21:17 - root - INFO: displaying the transformed data 
+2023-09-23 13:21:17 - load_data - WARNING: count the records in the df_city_sel
+2023-09-23 13:21:17 - load_data - WARNING: Numbers of records in the DataFrame[city: string, state_id: string, state_name: string, county_name: string, population: int, zips: string] are:: 28338
+2023-09-23 13:21:17 - load_data - WARNING: count the records in the df_precs
+2023-09-23 13:21:18 - load_data - WARNING: Numbers of records in the DataFrame[presc_npi: int, last_name: string, first_name: string, precs_city: string, precs_state: string, presc_specialty: string, drug_name: string, total_claim_count: int, total_day_supply: int, total_drug_cost: double, years_of_exp: string] are:: 1329329
+2023-09-23 13:21:18 - root - INFO: Application done
